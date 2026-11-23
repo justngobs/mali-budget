@@ -66,7 +66,15 @@ The file needs a **Date** and an **Amount** column (or **Debit** and **Credit**)
 
 ## On your phone
 
-Installing on a phone needs the app to be served over **https**, so it cannot use this computer's `localhost`. Copy the `app` folder to any free static host (GitHub Pages, Cloudflare Pages or Netlify), open that address on the phone, and choose **Add to Home Screen**. The data still stays on the phone only; nothing is sent to the host. Phone and computer do not sync: move data between them with Settings › Export › Full backup and Import › Restore a backup.
+The app is also online at **<https://justngobs.github.io/mali-budget/>** (free GitHub Pages hosting, https).
+
+1. Open that address on your phone.
+2. Android (Chrome): tap **Install app** when offered, or ⋮ › **Add to Home screen**. iPhone (Safari): Share › **Add to Home Screen**.
+3. Open Mali from the home screen icon. It works offline after the first visit.
+
+Only the app's files are on GitHub. Your budget data stays on the phone, in that browser; nothing is sent to the website. Phone and computer do not sync: move data between them with Settings › Export › Full backup and Import › Restore a backup. Install it to the home screen and take a full backup now and then, because a phone browser can clear website data for sites you have not installed.
+
+**Updates:** every push to `main` runs the tests and republishes the `app/` folder (see `.github/workflows/pages.yml`). The installed app picks up the new version the next time it opens online.
 
 ## Keyboard
 
