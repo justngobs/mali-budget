@@ -1,0 +1,4 @@
+# Your private budget data never goes into git
+data/
+node_modules/
+*.tmp

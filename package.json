@@ -1,0 +1,15 @@
+{
+  "name": "mali-budget",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private personal budget app in rand. Runs on your computer, works offline, installs as a PWA.",
+  "type": "module",
+  "scripts": {
+    "start": "node serve.mjs --open",
+    "serve": "node serve.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
